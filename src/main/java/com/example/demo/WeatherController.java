@@ -12,6 +12,13 @@ public class WeatherController {
 	@GetMapping("/check")
 	public String getWeather() {
 		return "Weather is Cloudy";
+		
+		
+	}
+	
+	@GetMapping("/check2")
+	public String getWeather2() {
+		return "Weather is Cloudy";
 	}
 
 	@GetMapping("/check")
@@ -21,6 +28,11 @@ public class WeatherController {
 
 	@GetMapping("/check5")
 	public String getWeather5() {
+		return "Weather is Sunny";
+	}
+	
+	@GetMapping("/check6")
+	public String getWeather6() {
 		return "Weather is Sunny";
 	}
 
