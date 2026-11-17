@@ -14,4 +14,9 @@ public class WeatherController {
 		return "Weather is Cloudy";
 	}
 
+	@GetMapping("/check")
+	public String getWeather1() {
+		return "Weather is Sunny";
+	}
+
 }
