@@ -19,4 +19,9 @@ public class WeatherController {
 		return "Weather is Sunny";
 	}
 
+	@GetMapping("/check5")
+	public String getWeather5() {
+		return "Weather is Sunny";
+	}
+
 }
